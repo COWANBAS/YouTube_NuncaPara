@@ -2,7 +2,7 @@
 // @name           Youtube Sempre Rodando
 // @description    Remove a mensagem "Continue assistindo" no YouTube e mantenha os vídeos reproduzindo
 // @namespace      CowanNEVERSTOP
-// @license        CowBas
+// @license        GPL-3.0
 // @version        1.0
 // @author         Cowanbas
 // @match          *://*/*
@@ -22,4 +22,5 @@
 
   // Define um intervalo para verificar a existência da mensagem a cada segundo
   setInterval(removeContinueWatching, 1000);
+
 })();
